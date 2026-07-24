@@ -1,0 +1,28 @@
+# Xcode
+.DS_Store
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+Build/
+Products/
+
+# Swift
+.swiftpm/
+.build/
+*.xcarchive
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Other
+*.log
+.env
+.env.local
